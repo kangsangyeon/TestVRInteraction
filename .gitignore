@@ -1,3 +1,12 @@
+# Assets폴더 내 특정 폴더 내 파일들을 제외한 모든 파일들을 제외합니다.
+Assets/*
+!Assets/@Game
+!Assets/Resources
+!Assets/AssetStore
+
+!Assets/XRI
+
+
 [Ll]ogs/
 [Ll]ibrary/
 [Tt]emp/
@@ -5,12 +14,6 @@
 [Bb]uild/
 [Bb]uilds/
 [Uu]serSettings/
-
-# Assets폴더 내 특정 폴더 내 파일들을 제외한 모든 파일들을 제외합니다.
-Assets/*
-!Assets/@Game
-!Assets/Resources
-!Assets/AssetStore
 
 # Visual Studio cache directory
 .vs/
